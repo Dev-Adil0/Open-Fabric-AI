@@ -65,4 +65,8 @@ def generate_response(query: str) -> str:
     response = conversation({"question": query})["text"]
 
     # Return the generated response
-    return response
+    return response 
+
+
+
+
